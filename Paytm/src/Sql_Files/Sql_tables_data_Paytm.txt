@@ -1,0 +1,51 @@
+mysql>
+mysql>
+mysql> show tables;
++-----------------+
+| Tables_in_aero  |
++-----------------+
+| aero            |
+| customer        |
+| testform        |
+| user_details    |
+| walllet_account |
++-----------------+
+5 rows in set (0.00 sec)
+
+mysql>
+mysql> select * from user_details;
++--------------+----------+-------+
+| username     | password | role  |
++--------------+----------+-------+
+| dravid       | dra      | user  |
+| Jagan        | Jaggu    | user  |
+| murthi       | murthi1  | user  |
+| naidu        | nai      | user  |
+| sachin       | sach     | user  |
+| sehwag       | seh      | user  |
+| srini        | srini567 | admin |
+| srinivas567n | srinivas | user  |
++--------------+----------+-------+
+8 rows in set (0.00 sec)
+
+mysql>
+mysql> select * from walllet_account;
++------------+---------+----------+
+| account_no | balance | username |
++------------+---------+----------+
+|    1808429 |     700 | dravid   |
+|    3376094 |       0 | Jagan    |
+|    5518269 |       0 | sehwag   |
+|    6072194 |    1300 | naidu    |
+|    6350045 |     300 | Gavaskar |
+|    9255421 |     400 | sachin   |
++------------+---------+----------+
+6 rows in set (0.00 sec)
+
+mysql>
+mysql>
+
+
+
+
+
